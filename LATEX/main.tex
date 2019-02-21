@@ -1,0 +1,137 @@
+\documentclass[12pt, a4paper, french, openright]{report}
+% version reliée
+% \documentclass[11pt, a4paper, french, openright, twoside]{report}
+\usepackage[french]{babel}
+\selectlanguage{french}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,textcomp}
+\usepackage[
+    left = \flqq,%
+    right = \frqq,%
+    leftsub = \flqq,%
+    rightsub = \frqq%
+]{dirtytalk}
+
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{setspace}
+
+\usepackage{titling}
+
+\usepackage[backend=biber]{biblatex}
+\bibliography{bibliography}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\renewcommand{\thefootnote}{\alph{footnote}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\bsc{\chaptername~\thechapter{} :} #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection{} \ #1}}
+\renewcommand{\headrulewidth}{0pt}
+\lhead[\textsl{\leftmark}]{\textsl{\rightmark}}
+\rhead[\textsl{\rightmark}]{\textsl{\leftmark}}
+\cfoot[\thepage]{\thepage}
+\setlength{\headheight}{15pt}
+
+\let\headruleORIG\headrule
+\renewcommand{\headrule}{\color{black} \headruleORIG}
+\renewcommand{\headrulewidth}{1.0pt}
+\usepackage{colortbl}
+\arrayrulecolor{black}
+
+\renewcommand{\footrulewidth}{0.4pt}% 
+
+\usepackage{sectsty}
+\usepackage{lipsum}% just to generate some text
+
+\chaptertitlefont{\centering \MakeUppercase}
+
+
+
+
+\title{Comment le système de recommandation de Netflix a rendu
+accros ses utilisateurs ?}
+
+\author{Fabien MICHEL}
+
+\date{\today}
+
+\begin{document}
+
+\input{./src_introduction/title.tex}
+
+%page blanche
+\newpage
+~
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\input{./src_introduction/remerciements.tex}
+
+\newpage
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\input{./src_introduction/abstract.tex}
+
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+
+\newpage
+~
+\thispagestyle{empty}
+%recommencer la numérotation des pages à "1"
+\setcounter{page}{0}
+\newpage
+
+\input{./src_latex/intro.tex}
+
+\input{./src_latex/contexte.tex}
+
+\input{./src_latex/prob.tex}
+
+\input{./src_latex/etat.tex}
+
+\input{./src_latex/apport.tex}
+
+\input{./src_latex/evaluation.tex}
+
+\input{./src_latex/evolution.tex}
+
+
+\input{./src_latex/conclusion.tex}
+
+
+
+\newpage
+%\nocite{SpaceXFirstISS, IFPI2011Report, SpotifyBloomberg, SpotifyNewYorker}
+\printbibliography
+
+\newpage
+\listoffigures
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+  Université Paris-Nanterre\\
+  200 Avenue de la République\\
+  92000 Nanterre
+\end{center}
+\vspace*{\fill}
+
+\end{document}
