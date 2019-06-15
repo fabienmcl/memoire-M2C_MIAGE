@@ -1,12 +1,12 @@
 # Mémoire de fin d'étude : M2 MIAGE Classique
 
-<u>Problématique</u> : Comment le système de recommandation de Netflix a rendu
-accros ses utilisateurs ?
+**<u>Problématique</u>** : *Comment le système de recommandation de Netflix a rendu
+accros ses utilisateurs ?*
 
 
-<u>Auteur</u> : Fabien MICHEL
+**<u>Auteur</u>** : *Fabien MICHEL*
 
-<u>Tuteur</u> : Lom messan HILLAH
+**<u>Tuteur</u>** : *Lom messan HILLAH*
 
 M2 MIAGE Classique 2018-2019 (Université Paris X Nanterre)
 
