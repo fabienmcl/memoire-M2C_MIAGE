@@ -8,6 +8,8 @@ accros ses utilisateurs ?
 
 <u>Tuteur</u> : Lom messan HILLAH
 
+M2 MIAGE Classique 2018-2019 (Université Paris X Nanterre)
+
 ## License
 
 This project is licensed under the Apache License 2.0 License.
