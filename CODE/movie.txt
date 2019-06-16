@@ -1,0 +1,25 @@
+Movie1,1939,Autant en emporte le vent,Romance
+Movie2,1977,Star Wars episode IV : Un nouvel espoir,Science-Fiction
+Movie3,1997,La Melodie du bonheur,Comedie
+Movie4,1982, ET l'extra-terrestre,Science-Fiction
+Movie5,1997,Titanic,Romance
+Movie6,1956,Les Dix Commandements,Aventure
+Movie7,1975, Les Dents de la mer,Thriller
+Movie8,1965,Le Docteur Jivago,Romance
+Movie9,1973,L'Exorciste,Horreur
+Movie10,1937,Blanche-Neige et les Sept Nains,Animation
+Movie11,2015, Star Wars episode VII : Le Reveil de la Force,Science-Fiction
+Movie12,1961, Les 101 Dalmatiens,Animation
+Movie13,1980,Star Wars episode V : L'Empire contre-attaque,Science-Fiction
+Movie14,1959,Ben-Hur,Aventure
+Movie15,2009,Avatar,Science-Fiction
+Movie16,1983,Star Wars episode VI : Le Retour du Jedi,Science-Fiction
+Movie17,1993,Jurrasic Park,Science-Fiction
+Movie18,1999,Star Wars episode I : La Menace fantome,Science-Fiction
+Movie19,1994,Le Roi lion,Animation
+Movie20,1973,L'arnaque,Comedie
+Movie21,1981,Les aventuriers de l'arche perdue,Aventure
+Movie22,2019,Avengers:Endgame,Action
+Movie23,1967,Le Laureat,Comedie
+Movie24,1940,Fantasia,Animation
+Movie25,2015,Jurassic World,Science-Fiction
